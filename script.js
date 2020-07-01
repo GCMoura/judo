@@ -89,8 +89,116 @@ function toggleTecMenu(button){
     }
 }
 
-//mostra video
+//variáveis de controle para video
+
+const techniques = [
+    "Seoi-nage",
+    "Tai-otoshi",
+    "Kata-guruma",
+    "Sukui-Nage",
+    "Uki-otoshi",
+    "Sumi-otoshi",
+    "Uki-goshi",
+    "O-goshi",
+    "Koshi-guruma",
+    "Tsuri-komi-goshi",
+    "Harai-goshi",
+    "Tsuri-goshi",
+    "Hane-goshi",
+    "Utsuri-goshi",
+    "Ushiro-goshi",
+    "De-ashi-harai",
+    "Hiza-guruma",
+    "Sasae-tsuri-komi-ashi",
+    "O-soto-gari",
+    "O-uchi-gari",
+    "Ko-soto-gari",
+    "Ko-uchi-gari",
+    "Okuri-ashi-harai",
+    "Uchi-mata",
+    "Ko-soto-gake",
+    "Ashi-guruma",
+    "Harai-tsuri-komi-ashi",
+    "O-guruma",
+    "O-soto-guruma",
+    "Yoko-otoshi",
+    "Tani-otoshi",
+    "Hane-makikomi",
+    "Soto-makikomi",
+    "Uki-waza",
+    "Yoko-wakare",
+    "Yoko-guruma",
+    "Yoko-gake",
+    "Tomoe-nage", 
+    "Sumi-gaeshi", 
+    "Ura-nage"
+];
+const techniquesLink = [
+    "_-5Un6jLtRY",
+    "DUiZ8JZkGx8",
+    "wRiFwMLCjPg",
+    "sn13Bu3bxHE",
+    "d8Cmcfvh7M8",
+    "CL6tPu1Khc4",
+    "5jVF6r366Kg",
+    "Mwz5At87OxE",
+    "psG_Xx8NiIA",
+    "4HJumX7ArOI",
+    "cs_zkgefvqM",
+    "_rag76pFL9U",
+    "n7GP5S41Os8",
+    "E81rR10wfXU",
+    "sqQ4tr3iERE",
+    "gW9LEvVmG2o",
+    "a1RZvytW3OI",
+    "MiGljHOokvE",
+    "93YEMueeF24",
+    "A6-lTECSR3c",
+    "T3rSf8CcHg4",
+    "5E20xuzaXNw",
+    "2WHtL7Rzwfs",
+    "7fCvyc_rQTI",
+    "jl99iUTlIVY",
+    "c7pqq2sC8Ng",
+    "23ATiD6TsZs",
+    "ujxkj6EJSb0",
+    "CdjR9VyQaL0",
+    "Uu9XXHHYMRo",
+    "wS9pM3y8YH4",
+    "wG5kQT7M8is",
+    "BcfGFR1CWss",
+    "JtB79Ma4htw",
+    "fWlPaLwvBV8",
+    "BYD0IRZPlxI",
+    "YntUIakl428",
+    "-euJliq9XcY", 
+    "4LR49U48iyw", 
+    "4hzlipey14I"
+];
+
+
+//mostrar video
+var iframe = document.querySelector('.video')
 var youTubeFrame = "https://youtube.com/embed/";
+var [...linkVideo] = document.getElementsByTagName('a')
+
+linkVideo.forEach(link => {
+    link.addEventListener('click', () => {
+        for (let i = 0; i < techniques.length; i++){
+            if(link.textContent == techniques[i]){
+                var index = techniques.indexOf(techniques[i])
+                
+                //fechar o menu
+                navBar.classList.remove('menu-open')
+                menu.firstElementChild.classList.remove('hamburguer-x')
+                isOpen = false
+            }
+        }
+        iframe.src = `${youTubeFrame}${techniquesLink[index]}`
+    })
+})
+
+
 
 
 
