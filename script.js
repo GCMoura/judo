@@ -3,12 +3,17 @@ const navBar = document.querySelectorAll('.nav-bar')[0]
 const menu = document.querySelector('.menu')
 const clickMenu = document.querySelector('.title')
 
+var container = document.querySelector('.container')
+var iframe = document.querySelector('.iframe')
+
 clickMenu.addEventListener('click', toggleClassMenu, false)
 
 var isOpen = false
 
 function toggleClassMenu(){
     if(isOpen == false){
+        container.style.display = 'none'
+        iframe.style.display = "block"
         navBar.classList.add("menu-open")
         menu.firstElementChild.classList.add('hamburguer-x')
         isOpen = true
@@ -92,13 +97,13 @@ function toggleTecMenu(button){
 //variáveis de controle para video
 
 const techniques = [
-    "Seoi-nage",
-    "Tai-otoshi",
-    "Kata-guruma",
-    "Sukui-Nage",
-    "Uki-otoshi",
-    "Sumi-otoshi",
-    "Uki-goshi",
+    "Seoi-nage",//
+    "Tai-otoshi",//
+    "Kata-guruma",//
+    "Sukui-Nage",//
+    "Uki-otoshi",//
+    "Sumi-otoshi",//
+    "Uki-goshi",//
     "O-goshi",
     "Koshi-guruma",
     "Tsuri-komi-goshi",
@@ -134,13 +139,13 @@ const techniques = [
     "Ura-nage"
 ];
 const techniquesLink = [
-    "_-5Un6jLtRY",
-    "DUiZ8JZkGx8",
-    "wRiFwMLCjPg",
-    "sn13Bu3bxHE",
-    "d8Cmcfvh7M8",
-    "CL6tPu1Khc4",
-    "5jVF6r366Kg",
+    "zIq0xI0ogxk",//
+    "4x6S3Q-Ktv8",//
+    "cnHRhSy8yi4",//
+    "vU6aJ2kFxoI",//
+    "6H5tmncOY4Q",//
+    "lLU9wv52ni0",//
+    "SNTuDRgoOtg",//
     "Mwz5At87OxE",
     "psG_Xx8NiIA",
     "4HJumX7ArOI",
@@ -176,14 +181,16 @@ const techniquesLink = [
     "4hzlipey14I"
 ];
 
-
 //mostrar video
-var iframe = document.querySelector('.video')
+var video = document.querySelector('.video')
 var youTubeFrame = "https://youtube.com/embed/";
 var [...linkVideo] = document.getElementsByTagName('a')
+var titleContainer = document.querySelector('.title-container')
 
 linkVideo.forEach(link => {
     link.addEventListener('click', () => {
+        container.style.display = 'none'
+        iframe.style.display = 'block'
         for (let i = 0; i < techniques.length; i++){
             if(link.textContent == techniques[i]){
                 var index = techniques.indexOf(techniques[i])
@@ -194,12 +201,6 @@ linkVideo.forEach(link => {
                 isOpen = false
             }
         }
-        iframe.src = `${youTubeFrame}${techniquesLink[index]}`
+        video.src = `${youTubeFrame}${techniquesLink[index]}`
     })
 })
-
-
-
-
-
-
