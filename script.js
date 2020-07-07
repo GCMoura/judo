@@ -104,15 +104,15 @@ const techniques = [
     "Uki-otoshi",//
     "Sumi-otoshi",//
     "Uki-goshi",//
-    "O-goshi",
-    "Koshi-guruma",
-    "Tsuri-komi-goshi",
-    "Harai-goshi",
-    "Tsuri-goshi",
-    "Hane-goshi",
-    "Utsuri-goshi",
-    "Ushiro-goshi",
-    "De-ashi-harai",
+    "O-goshi",//
+    "Koshi-guruma",//
+    "Tsuri-komi-goshi",//
+    "Harai-goshi",//
+    "Tsuri-goshi",//
+    "Hane-goshi",//
+    "Utsuri-goshi",//
+    "Ushiro-goshi",//
+    "De-ashi-harai",//
     "Hiza-guruma",
     "Sasae-tsuri-komi-ashi",
     "O-soto-gari",
@@ -145,16 +145,16 @@ const techniquesLink = [
     "vU6aJ2kFxoI",//
     "6H5tmncOY4Q",//
     "lLU9wv52ni0",//
-    "SNTuDRgoOtg",//
-    "Mwz5At87OxE",
-    "psG_Xx8NiIA",
-    "4HJumX7ArOI",
-    "cs_zkgefvqM",
-    "_rag76pFL9U",
-    "n7GP5S41Os8",
-    "E81rR10wfXU",
-    "sqQ4tr3iERE",
-    "gW9LEvVmG2o",
+    "bPKwtB4lyOQ",//
+    "PFbILGwd5L4",//
+    "pJsQrgMhgk4",//
+    "1eir0M1N40Q",//
+    "hKkDMj8Vgxc",//
+    "2meKovMhZb8",//
+    "sUvXz4BGD0k",//
+    "EBTuQZmaaOc",//
+    "b_2mR7mGG10",//
+    "fcSMGRq0HMY",//
     "a1RZvytW3OI",
     "MiGljHOokvE",
     "93YEMueeF24",
