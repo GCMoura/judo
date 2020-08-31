@@ -116,7 +116,7 @@ const techniques = [
     "Hiza-guruma",//
     "Sasae-tsuri-komi-ashi",//
     "O-soto-gari",//
-    "O-uchi-gari",
+    "O-uchi-gari",//
     "Ko-soto-gari",
     "Ko-uchi-gari",
     "Okuri-ashi-harai",
@@ -152,13 +152,13 @@ const techniquesLink = [
     "hKkDMj8Vgxc",//
     "2meKovMhZb8",//
     "sUvXz4BGD0k",//
-    "EBTuQZmaaOc",//
-    "b_2mR7mGG10",//
-    "fcSMGRq0HMY",//
-    "MbrtbT4ivoY",//
-    "QaSuu4Q7Xms",//
-    "Cik-jXhmsoE",//
-    "A6-lTECSR3c",
+    "4pQd_bEnlf0",//
+    "ORIYstuxYT8",//
+    "4BUUvqxi_Kk",//
+    "JPJx9-oAVns",//
+    "699i--pvYmE",//
+    "c-A_nP7mKAc",//
+    "0itJFhV9pDQ",//
     "T3rSf8CcHg4",
     "5E20xuzaXNw",
     "2WHtL7Rzwfs",
