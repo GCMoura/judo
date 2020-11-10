@@ -148,10 +148,11 @@ const techniquesLink = [
     "bPKwtB4lyOQ",//
     "yhu1mfy2vJ4",//
     "SU7Id6uVJ44",//
-    "McfzA0yRVt4",//
-    "hKkDMj8Vgxc",//
-    "2meKovMhZb8",//
-    "sUvXz4BGD0k",//
+    "McfzA0yRVt4",// 
+    "qTo8HlAAkOo",// 
+    "51Htlp7xEvE",// 
+    "M9_7De6A1kk",//
+
     "4pQd_bEnlf0",//
     "ORIYstuxYT8",//
     "4BUUvqxi_Kk",//
