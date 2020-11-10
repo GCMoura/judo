@@ -117,15 +117,15 @@ const techniques = [
     "Sasae-tsuri-komi-ashi",//
     "O-soto-gari",//
     "O-uchi-gari",//
-    "Ko-soto-gari",
-    "Ko-uchi-gari",
-    "Okuri-ashi-harai",
-    "Uchi-mata",
-    "Ko-soto-gake",
-    "Ashi-guruma",
-    "Harai-tsuri-komi-ashi",
-    "O-guruma",
-    "O-soto-guruma",
+    "Ko-soto-gari",//
+    "Ko-uchi-gari",//
+    "Okuri-ashi-harai",//
+    "Uchi-mata",//
+    "Ko-soto-gake",//
+    "Ashi-guruma",//
+    "Harai-tsuri-komi-ashi",//
+    "O-guruma",//
+    "O-soto-guruma",//
     "Yoko-otoshi",
     "Tani-otoshi",
     "Hane-makikomi",
@@ -134,8 +134,8 @@ const techniques = [
     "Yoko-wakare",
     "Yoko-guruma",
     "Yoko-gake",
-    "Tomoe-nage", 
-    "Sumi-gaeshi", 
+    "Tomoe-nage",//
+    "Sumi-gaeshi",//
     "Ura-nage"
 ];
 const techniquesLink = [
@@ -158,16 +158,16 @@ const techniquesLink = [
     "JPJx9-oAVns",//
     "699i--pvYmE",//
     "c-A_nP7mKAc",//
-    "0itJFhV9pDQ",//
-    "T3rSf8CcHg4",
-    "5E20xuzaXNw",
-    "2WHtL7Rzwfs",
-    "7fCvyc_rQTI",
-    "jl99iUTlIVY",
-    "c7pqq2sC8Ng",
-    "23ATiD6TsZs",
-    "ujxkj6EJSb0",
-    "CdjR9VyQaL0",
+    "0itJFhV9pDQ",// 
+    "jeQ541ScLB4",// 
+    "3Jb3tZvr9Ng",// 
+    "nw1ZdRjrdRI",//
+    "iUpSu5J-bgw",// 
+    "8b6kY4s4zH4",// 
+    "ROeayhvom9U",// 
+    "gGPXvWL8VbE",// 
+    "SnZciTAY9vc",// 
+    "92KbCm6pQeI",//
     "Uu9XXHHYMRo",
     "wS9pM3y8YH4",
     "wG5kQT7M8is",
@@ -176,8 +176,8 @@ const techniquesLink = [
     "fWlPaLwvBV8",
     "BYD0IRZPlxI",
     "YntUIakl428",
-    "-euJliq9XcY", 
-    "4LR49U48iyw", 
+    "880WbHvHv6A",// 
+    "5VhduA5xkbA",//
     "4hzlipey14I"
 ];
 
