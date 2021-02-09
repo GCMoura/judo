@@ -126,17 +126,17 @@ const techniques = [
     "Harai-tsuri-komi-ashi",//
     "O-guruma",//
     "O-soto-guruma",//
-    "Yoko-otoshi",
-    "Tani-otoshi",
-    "Hane-makikomi",
-    "Soto-makikomi",
-    "Uki-waza",
-    "Yoko-wakare",
-    "Yoko-guruma",
-    "Yoko-gake",
+    "Yoko-otoshi",//
+    "Tani-otoshi",//
+    "Hane-makikomi",//
+    "Soto-makikomi",//
+    "Uki-waza",//
+    "Yoko-wakare",//
+    "Yoko-guruma",//
+    "Yoko-gake",//
     "Tomoe-nage",//
     "Sumi-gaeshi",//
-    "Ura-nage"
+    "Ura-nage"//
 ];
 const techniquesLink = [
     "zIq0xI0ogxk",//
@@ -152,7 +152,6 @@ const techniquesLink = [
     "qTo8HlAAkOo",// 
     "51Htlp7xEvE",// 
     "M9_7De6A1kk",//
-
     "4pQd_bEnlf0",//
     "ORIYstuxYT8",//
     "4BUUvqxi_Kk",//
@@ -169,17 +168,17 @@ const techniquesLink = [
     "gGPXvWL8VbE",// 
     "SnZciTAY9vc",// 
     "92KbCm6pQeI",//
-    "Uu9XXHHYMRo",
-    "wS9pM3y8YH4",
-    "wG5kQT7M8is",
-    "BcfGFR1CWss",
-    "JtB79Ma4htw",
-    "fWlPaLwvBV8",
-    "BYD0IRZPlxI",
-    "YntUIakl428",
+    "MnNG67pF_a0",//
+    "3b9Me3Fohpk",//
+    "6CRBGLGz9j8",//
+    "bWG9O1BVKtQ",//
+    "weVOpJ63gII",//
+    "bp1tscHlePI",//
+    "MehP6I5cY2c",//
+    "tP1Sj1uDfSo",//
     "880WbHvHv6A",// 
     "5VhduA5xkbA",//
-    "4hzlipey14I"
+    "Fgi9b8DJ5sQ"//
 ];
 
 //mostrar video
