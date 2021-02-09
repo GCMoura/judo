@@ -27,7 +27,7 @@
     cursor: pointer;
     
 }
-@media(min-width: 700px){
+@media(min-width: 900px){
     .menu{
         display: none;
     }
@@ -42,11 +42,7 @@ main{
 }
 .container {
     background: linear-gradient(to bottom, rgb(167, 180, 224), #fff);
-    height: calc(100vh - 80px);
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     display: block;
 }
 .nav-bar{
@@ -58,7 +54,7 @@ main{
     justify-content: stretch;
     left: 0;
     position: absolute;
-    transform: translateX(-100%);/*mudar para -100%*/
+    transform: translateX(-100%);
     transition: all 0.5s ease-out;
     width: 100%;
     position: relative;
@@ -112,7 +108,6 @@ main{
     justify-content: center;
     width: 100%;  
     height: 100%;
-    margin-top: 160px; 
 }
 
 .list{
@@ -131,7 +126,7 @@ main{
     display: none;
 }
   
-@media(min-width: 700px){
+@media(min-width: 900px){
     .nav-bar{
         background: rgb(167, 180, 224);
         display: flex;

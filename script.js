@@ -19,6 +19,8 @@ function toggleClassMenu(){
         isOpen = true
     }
     else {
+        container.style.display = 'block'
+        iframe.style.display = "none"
         navBar.classList.remove('menu-open')
         menu.firstElementChild.classList.remove('hamburguer-x')
         isOpen = false
