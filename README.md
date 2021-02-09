@@ -13,8 +13,8 @@ The application's goal is show the Go Kyo No Waza techniques for judo learner.
   - [License](#license)
 
 ## Screenshots (mobile layout)
-![Screenshot-1](https://raw.githubusercontent.com/GCMoura/Rijksmuseum/master/screenshots/screenshot-1.png)
-![Screenshot-2](https://raw.githubusercontent.com/GCMoura/Rijksmuseum/master/screenshots/screenshot-2.png)
+![Screenshot-1](https://raw.githubusercontent.com/GCMoura/judo/master/img/screenshots/screenshot-1.png)
+![Screenshot-2](https://raw.githubusercontent.com/GCMoura/judo/master/img/screenshots/screenshot-2.png)
 
 ## Getting Started
 This page was created using only Vanilla Javascript, without frameworks or libraries, therefore for visualizing this page access:
